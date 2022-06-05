@@ -1,7 +1,7 @@
-function display_func()
+const btn=document.getElementById('btn');
+const flex=document.querySelector('.flex-container2');
+btn.addEventListener('click',()=>
 {
-    document.getElementById('flex1').style.display="none";
-    document.getElementById('flex2').style.display="block";
-    
-}
+    flex.classList.add('active');
 
+})
