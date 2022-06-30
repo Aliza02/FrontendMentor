@@ -1,0 +1,24 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container-fluid{
+ display: flex;
+ flex-direction: column;
+ background-color:hsl(213, 19%, 18%) ;
+ height: 50vh;
+ width: 50vh;
+ margin: 0;
+ border-radius: 30px;
+}
+.fav-icon{
+    padding: 10px;
+}
+.star-icon{
+    background-color:hsl(213, 19%, 18%) ;
+    padding: 10px;
+}
+
