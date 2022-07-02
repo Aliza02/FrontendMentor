@@ -3,7 +3,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
     height: 100vh;
+    font-family: 'Overpass', sans-serif;
 }
 .container-fluid{
  display: flex;
@@ -16,9 +18,17 @@ body{
 }
 .fav-icon{
     padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .star-icon{
-    background-color:hsl(213, 19%, 18%) ;
+    background-color:hsl(213, 20%, 21%) ;
+    padding: 18px;
+    border-radius: 50px;
+}
+.card-heading{
     padding: 10px;
+    margin-left: 20px;
+    margin-top:5px
 }
 
