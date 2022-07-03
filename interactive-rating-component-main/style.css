@@ -1,0 +1,116 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+}
+.container-fluid, .thankyou-container{
+ display: flex;
+ flex-direction: column;
+ background-color:hsl(213, 19%, 18%) ;
+ height: 50vh;
+ width: 50vh;
+ margin: 0;
+ border-radius: 30px;
+ 
+}
+.thankyou-container{
+    display: none;
+}
+.fav-icon{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.star-icon{
+    background-color:hsl(213, 20%, 21%) ;
+    padding: 18px;
+    border-radius: 50px;
+}
+.card-heading{
+    padding: 10px;
+    margin-left: 20px;
+    margin-top:5px
+}
+.card-paragraph{
+    margin-left: 15px;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color:hsl(216, 12%, 54%);
+}
+.card-button{
+    margin-left: 20px;
+}
+.btn{
+    color:hsl(216, 12%, 54%);
+    background-color: hsl(213, 20%, 21%);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    outline: none;
+    border-color: none;
+}
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: 0;
+}
+.submit-btn{
+    width: 42vh;
+    height: 6vh;
+    margin-left: 28px;
+    margin-top: 15px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: 0;
+    font-size: 18px;
+    border-radius: 40px;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.thankyou-img{
+    margin-top: 30px;
+    margin-left: 110px;
+    height: 120px;
+}
+.rating{
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color:hsl(213, 20%, 21%) ;
+    color: orange;
+    width: 220px;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+.thankyou-popup{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.thankyou-msg{
+    margin-left: 40px;
+    margin-right: 20px;
+    color: hsl(216, 12%, 54%);
+}
+
+@media(max-width:375px){
+    .container-fluid{
+        width: 100%;
+        height: 40%;
+    }
+    .btn{
+        margin: 5px;
+    }
+    .submit-btn{
+        width: 90%;
+    }
+}
