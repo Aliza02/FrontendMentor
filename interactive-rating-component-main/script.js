@@ -8,5 +8,5 @@ submit.addEventListener('click',()=>{
   card.style.display='none';
   thankyou_container.style.display='block';
 
-    console.log(card);    
+   
 })
